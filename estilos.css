@@ -1,0 +1,136 @@
+
+
+
+
+
+
+  h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(50, 64, 150);
+    border-color: black;
+    border: 30px;
+    margin: 0px;
+    font-weight: bold;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    
+  }
+
+  nav {
+    position:static;
+    background-color: dodgerblue;
+    bottom: 50%;
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+    border-color: black;
+    border: 15px;
+    margin: 15px;
+    border-top-width: 2px; 
+    border-right-width: 4px; 
+    border-bottom-width: 6px; 
+    border-left-width: 8px;
+  }
+
+.tabela{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(49, 221, 14);
+    border-color: black;
+    border: 15px;
+    margin: 15px;
+    border-top-width: 2px; 
+    border-right-width: 4px; 
+    border-bottom-width: 6px; 
+    border-left-width: 8px;
+}
+
+.lista{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(215, 222, 17);
+    border-color: black;
+    border: 15px;
+    margin: 15px;
+    border-top-width: 2px; 
+    border-right-width: 4px; 
+    border-bottom-width: 6px; 
+    border-left-width: 8px;
+}
+
+
+
+#box1 {
+    padding: 30px;
+    border: rgb(244, 244, 0) solid;
+    margin-bottom: 30px;
+    background-color: rgb(40, 38, 38);
+    text-align: center;
+  }
+  
+  
+  #box2 {
+    padding: 40px 12px 20px 20px;
+    border: rgb(1, 130, 250) solid;
+    margin-bottom: 30px;
+    background-color: rgb(40, 38, 38);
+    text-align: center;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(20, 184, 235);
+  }
+  
+  .flex-container > div {
+    background-color: #8142ae;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+
+  p {
+    background-color: rgb(23, 191, 233);
+  }
+  
+  @media only screen and (min-width: 300px) {
+    body {
+      background-color: black;
+      color: white;
+      font-family: -apple-system;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    body {
+      background-color: rgb(245, 50, 193);
+      color: black;
+    }
+  
+    p {
+      background-color: rgb(13, 207, 123);
+    }
+  }
+  
